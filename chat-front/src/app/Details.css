@@ -15,15 +15,16 @@
 
 .details-status {
   color: #1B1B1D;
-  margin: -6% 0 0 60%;
+  margin: -6% 0 0 70%;
 }
 
 .dt-act {
-  margin-left: 2%;
+  margin: -12.5% 0 0 46%;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: green;
+  display: block;
 }
 
 .details-mail {
@@ -35,9 +36,8 @@
     height: 23vh;
     border: 2px solid rgb(234,234,234);
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-
     border-radius: 7%;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: -10%;
     padding: 10px;
   }
@@ -57,7 +57,7 @@
     border: 2px solid rgb(234,234,234);
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    margin-top: 6vh;
+    margin-top: 7dvh;
     border-radius: 7%;
   }
 
@@ -88,14 +88,100 @@
     }
   }
 
-  @media screen and (max-width: 1300px) {
-
+  @media screen and (max-width: 1360px) {
     .ct .img{
       width: 15vw;
       height: 20vh;
     }
     
+    .dt-act {
+      margin: -18% 0 0 70%;
+    }
   }
+
+  @media screen and (max-width: 1700px) {
+    .dt-act {
+      margin: -14% 0 0 56%;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .details-status {
+      margin: -8% 0 0 70%;
+    }
+    .dt-act {
+      margin: -18% 0 0 70%;
+    }
+  }
+
+  @media screen and (max-width: 1120px) {
+    .details-status {
+      margin: -8% 0 0 70%;
+    }
+    .dt-act {
+      margin: -22% 0 0 90%;
+    }
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .details-status {
+      margin: -10% 0 0 70%;
+    }
+    .dt-act {
+      margin: -24% 0 0 90%;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .details-status {
+      margin: -10% 0 0 50%;
+    }
+    .dt-act {
+      margin: -14% 0 0 55%;
+    }
+    .contact-info {
+      margin: 10% 15% -8% -8%;
+    }
+    .details-section {
+      margin: 15% 15% -8% -8%;
+    }
+
+  }
+
+  @media screen and (max-width: 550px) {
+    .details-status {
+      margin: 0% 0 0 0%;
+    }
+    .dt-act {
+      margin: -7.5% 0 0 30%;
+    }
+    .email-icon {
+      width: 30px;
+      height: 24px;
+      margin-left: 35%;
+    }
+    .details-mail {
+      visibility: hidden;
+    }
+    .contact-info, .details-section {
+      margin: 10% 40% -8% -8%;
+    }
+    
+  }
+
+  @media screen and (max-width: 430px) {
+    .details-status {
+      margin: 0% 0 0 0%;
+    }
+    .dt-act {
+      margin: -19% 0 0 70%;
+    }
+    .contact-info {
+      margin: 10% 3% -8% -12%;
+    }
+  }
+  
     .clt.client-1 .img {
     background-image: url('./assets/image.jpg');
   }
