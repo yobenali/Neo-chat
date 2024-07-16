@@ -1,0 +1,111 @@
+/* Details.css */
+.details {
+    padding: 20px;
+  }
+  
+  .details h2 {
+    color: #1B1B1D;
+    height: 5vh;
+  }
+  
+  .details-text {
+    color: #1B1B1D;
+    margin-left: 0%;
+}
+
+.details-status {
+  color: #1B1B1D;
+  margin: -6% 0 0 60%;
+}
+
+.dt-act {
+  margin-left: 2%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.details-mail {
+  color: #1B1B1D;
+  margin-left: 4%;
+}
+  
+  .contact-info {
+    height: 23vh;
+    border: 2px solid rgb(234,234,234);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 7%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+    padding: 10px;
+  }
+  
+  .contact-info h4 {
+    color: #1B1B1D;
+  }
+  
+  .email-icon {
+    width: 18px;
+    height: 16px;
+    margin-left: -2%;
+  }
+  
+  .details-section {
+    height: 23vh;
+    border: 2px solid rgb(234,234,234);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 6vh;
+    border-radius: 7%;
+  }
+
+  .clt .img {
+    width: 15dvw;
+    height: 30dvh;
+    border-radius: 50%;
+    margin-left: 10%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img:hover {
+    background-color: 'rgba(180, 180, 180, 0.3)';
+  }
+  
+
+  @media screen and (max-width: 1040px) {
+   .email-icon{
+     margin-left: 43%;   
+    }
+    .details-mail{
+      margin-left: 0;
+    }
+    .clt .img{
+      width: 15vw;
+      height: 20vh;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+
+    .ct .img{
+      width: 15vw;
+      height: 20vh;
+    }
+    
+  }
+    .clt.client-1 .img {
+    background-image: url('./assets/image.jpg');
+  }
+  
+  .clt.client-2 .img {
+    background-image: url('./assets/client.jpg');
+  } 
+  
+  .clt.client-3 .img {
+    background-image: url('./assets/brown.jpeg');
+  }
+
+  
