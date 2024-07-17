@@ -49,7 +49,7 @@
   .email-icon {
     width: 18px;
     height: 16px;
-    margin-left: -2%;
+    margin: 3% 0 0 -2%;
   }
   
   .details-section {
@@ -74,6 +74,12 @@
     background-color: 'rgba(180, 180, 180, 0.3)';
   }
   
+  .guidance {
+    color: #1B1B1D;
+    margin: 5% 0 0% 2%;
+    font-weight: bold;
+    opacity: 0.85;
+  }
 
   @media screen and (max-width: 1040px) {
    .email-icon{
@@ -183,15 +189,15 @@
   }
   
     .clt.client-1 .img {
-    background-image: url('./assets/image.jpg');
+    background-image: url('../assets/image.jpg');
   }
   
   .clt.client-2 .img {
-    background-image: url('./assets/client.jpg');
+    background-image: url('../assets/client.jpg');
   } 
   
   .clt.client-3 .img {
-    background-image: url('./assets/brown.jpeg');
+    background-image: url('../assets/brown.jpeg');
   }
 
   

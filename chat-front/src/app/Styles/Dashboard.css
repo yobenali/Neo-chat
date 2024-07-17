@@ -114,6 +114,7 @@
   .dropdown-content a {
     color: #1B1B1D;
     text-decoration: none;
+    display: block; 
   }
 
   a:hover {
@@ -148,6 +149,10 @@
   .client:hover {
     background-color: #f1f1f1;
   }
+
+  .client::after {
+    background-color: #969393;
+  } 
   
   .client .client-image {
     width: 40px;
@@ -159,15 +164,15 @@
   }
   
   .client.client-1 .client-image {
-    background-image: url('./assets/image.jpg');
+    background-image: url('../assets/image.jpg');
   }
   
   .client.client-2 .client-image {
-    background-image: url('./assets/client.jpg');
+    background-image: url('../assets/client.jpg');
   }
 
   .client.client-3 .client-image {
-    background-image: url('./assets/brown.jpeg');
+    background-image: url('../assets/brown.jpeg');
   }
 
   .dot {
